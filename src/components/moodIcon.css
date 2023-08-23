@@ -1,0 +1,71 @@
+.small {
+    transform-origin: 50% 50%;
+    transform: scale(0.2);
+}
+
+.wave {
+    opacity: 0.2;
+    transform-origin: 50% 50%;
+}
+
+.wave1 {
+    transform: scale(2);
+}
+
+.wave2 {
+    transform: scale(1.7);
+}
+
+.wave3 {
+    transform: scale(1.2);
+}
+
+.wave4 {
+    transform: scale(1);
+}
+
+.wave.animate {
+    animation: wave 4s linear infinite;
+}
+
+.wave2.animate {
+    animation-delay: 1s;
+}
+
+.wave3.animate {
+    animation-delay: 2s;
+}
+
+.wave4.animate {
+    animation-delay: 3s;
+}
+
+@keyframes wave {
+    0% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+    75% {
+        transform: scale(1.8);
+        opacity: 0.25;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@keyframes wave-negative {
+    0% {
+        transform: rotate(50deg) scale(0.5);
+        opacity: 0.5;
+    }
+    75% {
+        transform: rotate(20deg) scale(1.8);
+        opacity: 0.25;
+    }
+    100% {
+        transform: rotate(20deg) scale(2);
+        opacity: 0;
+    }
+}
