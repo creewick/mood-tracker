@@ -3,7 +3,7 @@ import getColors from '../moodColors';
 import './moodIcon.css';
 
 export default function MoodIcon(props) {
-    const { mood, animate, width, height } = props;
+    const { mood, animate, size } = props;
 
     const canvasSize = 200;
     const canvasCenter = canvasSize / 2;
@@ -69,8 +69,8 @@ export default function MoodIcon(props) {
 
     function getStyles() {
         return {
-            width: width ?? '100px',
-            height: height ?? '100px',
+            width: size ?? '100px',
+            height: size ?? '100px',
             background: `radial-gradient(circle, ${colors.backgroundSecondary} 0%, ${colors.backgroundPrimary} 50%)`
         }
     }

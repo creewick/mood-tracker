@@ -6,6 +6,8 @@
 .wave {
     opacity: 0.2;
     transform-origin: 50% 50%;
+    transform: translateZ(0);
+    will-change: transform, opacity;
 }
 
 .wave1 {

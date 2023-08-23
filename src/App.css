@@ -1,12 +1,12 @@
 .app {
     width: 100%;
-    height: 80vh;
+    min-height: 100svh;
     display: grid;
     place-items: center;
-    padding: 10vh 0;
 }
 
 h1 {
     opacity: .75;
+    text-align: center;
 }
 
