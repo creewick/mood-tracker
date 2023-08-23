@@ -1,5 +1,5 @@
 import React from 'react';
-import getColors from '../moodColors';
+import getColors from '../functions/moodColors';
 import './MoodIcon.css';
 
 export default function MoodIcon(props) {

@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import './App.css';
-import getColors from './moodColors';
-import MoodIcon from './components/MoodIcon';
-import MoodSlider from './components/MoodSlider';
+import './Log.css';
+import getColors from '../functions/moodColors';
+import MoodIcon from '../components/MoodIcon';
+import MoodSlider from '../components/MoodSlider';
 
 export default function App() {
   const [mood, setMood] = useState(0);
