@@ -30,6 +30,10 @@
     animation: wave 4s linear infinite;
 }
 
+.wave.animate.negative {
+    animation-duration: 3.2s;
+}
+
 .wave2.animate {
     animation-delay: 1s;
 }
@@ -53,21 +57,6 @@
     }
     100% {
         transform: scale(2);
-        opacity: 0;
-    }
-}
-
-@keyframes wave-negative {
-    0% {
-        transform: rotate(50deg) scale(0.5);
-        opacity: 0.5;
-    }
-    75% {
-        transform: rotate(20deg) scale(1.8);
-        opacity: 0.25;
-    }
-    100% {
-        transform: rotate(20deg) scale(2);
         opacity: 0;
     }
 }

@@ -9,6 +9,8 @@ export default function App() {
 
   const colors = getColors(mood);
 
+  document.getElementById('themeColor').setAttribute('content', colors.backgroundPrimary);
+
   return (
     <div className="app" style={{background: colors.backgroundPrimary}}>
       <h1>Как Вы чувствуете себя сейчас?</h1>
