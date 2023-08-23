@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mood-tracker/static/css/main.7dd0eed8.css",
+    "main.js": "/mood-tracker/static/js/main.9be3d469.js",
+    "index.html": "/mood-tracker/index.html",
+    "main.7dd0eed8.css.map": "/mood-tracker/static/css/main.7dd0eed8.css.map",
+    "main.9be3d469.js.map": "/mood-tracker/static/js/main.9be3d469.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dd0eed8.css",
+    "static/js/main.9be3d469.js"
+  ]
+}
